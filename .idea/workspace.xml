@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fc2119e-9e0b-4eb8-9781-d1893dfc2ad7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/cargostatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RegionL/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/RegionL/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cargostatus/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cargostatus/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cargostatus/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cargostatus/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employees/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/employees/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employees/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/employees/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listallcargos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/listallcargos/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listallcargos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/listallcargos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cargostatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cargostatus.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listallcargos/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -82,14 +77,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RegionL/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/cargostatus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -100,6 +113,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -122,9 +136,10 @@
         <option value="$PROJECT_DIR$/employees/admin.py" />
         <option value="$PROJECT_DIR$/listallcargos/models.py" />
         <option value="$PROJECT_DIR$/listallcargos/admin.py" />
-        <option value="$PROJECT_DIR$/RegionL/urls.py" />
         <option value="$PROJECT_DIR$/listallcargos/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/RegionL/urls.py" />
         <option value="$PROJECT_DIR$/templates/cargostatus.html" />
       </list>
     </option>
@@ -152,6 +167,11 @@
               <item name="RegionL" type="b2602c69:ProjectViewProjectNode" />
               <item name="RegionL" type="462c0819:PsiDirectoryNode" />
               <item name="cargostatus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RegionL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RegionL" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RegionL" type="b2602c69:ProjectViewProjectNode" />
@@ -190,6 +210,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Khusan" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -270,11 +291,13 @@
       <workItem from="1557214103946" duration="1442000" />
       <workItem from="1557215919145" duration="1784000" />
       <workItem from="1557217785223" duration="1850000" />
+      <workItem from="1557219788281" duration="1776000" />
+      <workItem from="1557221606628" duration="1328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41271000" />
+    <option name="totallyTimeSpent" value="44375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,7 +313,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.40356565" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.41815236" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32928312" />
@@ -303,7 +326,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32928312" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32928312" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -444,19 +467,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listallcargos/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cargostatus.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/listallcargos/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="60">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -464,13 +477,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/listallcargos/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RegionL/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="e#631#663#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cargostatus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
