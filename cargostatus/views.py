@@ -3,9 +3,9 @@ from django.http import HttpResponseRedirect
 from .models import Cargostatus
 
 # получение данных из бд
-def index(request):
-    person = cargostatus.objects.all()
-    return render(request, "cargostatus.html", {"cargostatus": cargostatus})
+def cargostatus(request):
+    cargostatus = Cargostatus.objects.all()
+    return render(request, "cargostatus.html", {"person": cargostatus})
 
 # сохранение данных в бд
 # def create(request):
