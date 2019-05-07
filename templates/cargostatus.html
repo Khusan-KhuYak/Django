@@ -6,14 +6,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Добавление дополнительного статического CSS файла -->
   {% load static %}
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
-<body>
+<body class="container">
+    <h2>Статус грузов</h2>
+    <table>
+        <tr><th>Номер груза</th><th>Статус</th><th>Кто поставил</th><th>Дата и время</th><th>Дельта </th><th>Ставка клиента </th><th>Ставка заказчика </th></tr>
+        {% for person in people %}
+        <tr><td>{{ cargostatus.number }}</td><td>{{ cargostatus.status }}</td><td>{{ cargostatus.who_maked }}</td><td>{{ cargostatus.data_time }}</td><td>{{ cargostatus.delta }}</td><td>{{ cargostatus.customer_rate }}</td><td>{{ cargostatus.rate_carriage }}</td></tr>
+        {% endfor %}
+    </table>
 
   <div class="container-fluid">
 
